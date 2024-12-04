@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/tic_tac_toe/tic_tac_toe.egg-info
+writing ../build/tic_tac_toe/tic_tac_toe.egg-info/PKG-INFO
+writing dependency_links to ../build/tic_tac_toe/tic_tac_toe.egg-info/dependency_links.txt
+writing entry points to ../build/tic_tac_toe/tic_tac_toe.egg-info/entry_points.txt
+writing requirements to ../build/tic_tac_toe/tic_tac_toe.egg-info/requires.txt
+writing top-level names to ../build/tic_tac_toe/tic_tac_toe.egg-info/top_level.txt
+writing manifest file '../build/tic_tac_toe/tic_tac_toe.egg-info/SOURCES.txt'
+reading manifest file '../build/tic_tac_toe/tic_tac_toe.egg-info/SOURCES.txt'
+writing manifest file '../build/tic_tac_toe/tic_tac_toe.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shanti/ttt_ws/src/build/tic_tac_toe/build
+creating /home/shanti/ttt_ws/src/build/tic_tac_toe/build/lib
+creating /home/shanti/ttt_ws/src/build/tic_tac_toe/build/lib/tic_tac_toe
+copying tic_tac_toe/game_node.py -> /home/shanti/ttt_ws/src/build/tic_tac_toe/build/lib/tic_tac_toe
+copying tic_tac_toe/get_move_service.py -> /home/shanti/ttt_ws/src/build/tic_tac_toe/build/lib/tic_tac_toe
+copying tic_tac_toe/__init__.py -> /home/shanti/ttt_ws/src/build/tic_tac_toe/build/lib/tic_tac_toe
+running install
+running install_lib
+creating /home/shanti/ttt_ws/src/install/tic_tac_toe/lib/python3.10/site-packages/tic_tac_toe
+copying /home/shanti/ttt_ws/src/build/tic_tac_toe/build/lib/tic_tac_toe/game_node.py -> /home/shanti/ttt_ws/src/install/tic_tac_toe/lib/python3.10/site-packages/tic_tac_toe
+copying /home/shanti/ttt_ws/src/build/tic_tac_toe/build/lib/tic_tac_toe/get_move_service.py -> /home/shanti/ttt_ws/src/install/tic_tac_toe/lib/python3.10/site-packages/tic_tac_toe
+copying /home/shanti/ttt_ws/src/build/tic_tac_toe/build/lib/tic_tac_toe/__init__.py -> /home/shanti/ttt_ws/src/install/tic_tac_toe/lib/python3.10/site-packages/tic_tac_toe
+byte-compiling /home/shanti/ttt_ws/src/install/tic_tac_toe/lib/python3.10/site-packages/tic_tac_toe/game_node.py to game_node.cpython-310.pyc
+byte-compiling /home/shanti/ttt_ws/src/install/tic_tac_toe/lib/python3.10/site-packages/tic_tac_toe/get_move_service.py to get_move_service.cpython-310.pyc
+byte-compiling /home/shanti/ttt_ws/src/install/tic_tac_toe/lib/python3.10/site-packages/tic_tac_toe/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/shanti/ttt_ws/src/install/tic_tac_toe/share/ament_index
+creating /home/shanti/ttt_ws/src/install/tic_tac_toe/share/ament_index/resource_index
+creating /home/shanti/ttt_ws/src/install/tic_tac_toe/share/ament_index/resource_index/packages
+copying resource/tic_tac_toe -> /home/shanti/ttt_ws/src/install/tic_tac_toe/share/ament_index/resource_index/packages
+copying package.xml -> /home/shanti/ttt_ws/src/install/tic_tac_toe/share/tic_tac_toe
+running install_egg_info
+Copying ../build/tic_tac_toe/tic_tac_toe.egg-info to /home/shanti/ttt_ws/src/install/tic_tac_toe/lib/python3.10/site-packages/tic_tac_toe-0.0.0-py3.10.egg-info
+running install_scripts
+Installing game_node script to /home/shanti/ttt_ws/src/install/tic_tac_toe/lib/tic_tac_toe
+Installing get_move_service script to /home/shanti/ttt_ws/src/install/tic_tac_toe/lib/tic_tac_toe
+writing list of installed files to '/home/shanti/ttt_ws/src/build/tic_tac_toe/install.log'

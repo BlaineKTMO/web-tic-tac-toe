@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tic_tac_toe_msgs/srv/Move.srv
+// generated code does not contain a copyright notice
+
+
+module tic_tac_toe_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct Move_Request {
+      sequence<uint8> board;
+
+      uint8 player;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct Move_Response {
+      int32 position;
+    };
+  };
+};

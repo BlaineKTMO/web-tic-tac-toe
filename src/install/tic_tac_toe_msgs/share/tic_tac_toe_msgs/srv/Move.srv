@@ -1,0 +1,6 @@
+#request
+char[] board
+char player
+---
+#response
+int32 position
