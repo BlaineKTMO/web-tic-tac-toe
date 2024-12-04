@@ -52,7 +52,7 @@ class GetMoveService(Node):
         board, available = self.make_board(board_state)
         # API endpoint
         url = "https://api.openai.com/v1/chat/completions"
-        api_key = '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'
+        api_key = ''
         model="gpt-4"
         prompt = f"I will pass you a list of 9 characters. These are a row wise representation of a tic tac toe board delimited by a ' '. \
                 You're goal is to win the tic tac toe game. You can only play in areas marked with '-'. You're response will be the 1-based index of where you wish to play. \
@@ -89,7 +89,7 @@ class GetMoveService(Node):
 
     def get_bard_move(self, board_state, player):
         board, available = self.make_board(board_state)
-        genai.configure(api_key="AIzaSyBQ0yBtAF6chhP8iwUlVE7Wbaz0BCgOlAw")
+        genai.configure(api_key="")
         model = genai.GenerativeModel("gemini-1.5-flash")
         response = model.generate_content(f"I will pass you a list of 9 characters. These are a row wise representation of a tic tac toe board delimited by a ' '. \
                 You're goal is to win the tic tac toe game. You can only play in areas marked with '-'. You're response will be the 1-based index of where you wish to play. \
